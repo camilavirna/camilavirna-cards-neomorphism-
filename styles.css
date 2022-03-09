@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #A9A9A9;
+}
+container {
+    margin-left: 8rem;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+}
+
+h1 {
+    font-size: 2.8rem;
+    font-family: 'Poppins', sans-serif;
+    color: #363636;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 4rem;
+}
+
+p {
+    margin-bottom: 1rem;
+    margin-left: 5rem;
+    font-family: 'Poppins', sans-serif;
+    color: #363636;
+}
+
+button {
+    width: 6rem;
+    height: 2rem;
+    border-radius: 0.4rem;
+    border-color: #D3D3D3;
+    box-shadow: 
+    0.6rem 0.2rem 1rem #A9A9A9,
+    -0.3rem -0.3rem 1.8rem #ffffff;
+    cursor: pointer;
+}
+
+button:hover {
+    width: 6rem;
+    height: 2rem;
+    border-radius: 0.4rem;
+    border-color: #D3D3D3;
+    box-shadow: 
+    inset -0.1rem 0rem 0.2rem #A9A9A9;  
+    cursor: pointer;
+}
+
+.card {
+    background: #DCDCDC;
+    height: 20rem;
+    width: 16rem;
+    border-radius: 0.5rem;
+    box-shadow: 
+    0.4rem 0.4rem 1.4rem #363636,
+    -0.3rem -0.3rem 1.8rem #ffffff;
+    margin-bottom: 4rem;
+    margin-left: 2rem;
+    margin-right: 3rem;
+}
+
+.photo {
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 8rem;
+    margin-top: 2.8rem;
+    margin-bottom: 1rem;
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: 2fr;
+}
+
+.buttons {
+    margin-left: 1.4rem;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+}
+
+.icons {
+    margin-bottom: 1rem;
+    margin-left: 6rem;
+}
